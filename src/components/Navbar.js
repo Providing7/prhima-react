@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 function Navbar() {
   return (
     <nav>
       <ul>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><Link to="/">Sobre</Link></li>
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
